@@ -11,7 +11,7 @@ import Home from '../home/HomePage';
 class Main extends React.Component {
   render() {
     return (
-      <main>
+      <main className='jumbotron'>
           <Switch>
             <Route exact path='/' component={Home}/>
             <Route path='/about' component={About}/>
