@@ -1,4 +1,6 @@
-#app {
+
+
+app {
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #4d4d4d;
   min-width: 550px;
@@ -6,10 +8,13 @@
   margin: 0 auto;
 }
 
-a.active {
+li.nav-item.active {
   color: orange;
+  list-style-type: none;
+  padding: 10px;
 }
 
-nav {
-  padding-top: 20px;
+.navbar {
+  padding-bottom: 0px;
 } 
+

@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './header/Header';
+import MenuBar from './menubar/MenuBar';
 import Main from './main/Main';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <MenuBar />
         <Main />
       </div>    );
   }
